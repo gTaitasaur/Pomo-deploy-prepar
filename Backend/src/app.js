@@ -17,7 +17,7 @@ app.use(cors({
 app.use(cors({
   origin: process.env.FRONTEND_URL || [
     'http://localhost:5173',
-    'https://tu-frontend.onrender.com' // Se actualizará después
+    'https://pomodoro-frontend-m4mq.onrender.com'
   ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
